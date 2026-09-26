@@ -11,7 +11,7 @@ const maps = `https://www.google.com/maps/search/?api=1&query=${encodeURICompone
 )}`
 
 const rooms = [
-  { name: 'Double Room', image: '/double-room.jpg', desc: 'Comfortable room for couples or small families.', tag: 'Double' },
+  { name: 'Double Room', image: '/triple1-room.jpg', desc: 'Comfortable room for couples or small families.', tag: 'Double' },
   { name: 'Triple Room', image: '/triple-room.jpg', desc: 'Spacious setup suitable for families and small groups.', tag: 'Triple' },
   { name: 'Duplex Room', image: '/duplex-room.jpg', desc: 'Extra space for guests looking for a larger stay.', tag: 'Duplex' },
 ]
