@@ -19,7 +19,7 @@ const maps = `https://www.google.com/maps/search/?api=1&query=${encodeURICompone
 )}`
 
 const rooms = [
-  { name: 'Double Room', image: '/triple1-room.jpg', desc: 'Comfortable room for couples or small families.', tag: 'Double' },
+  { name: 'Double Room', image: '/double-room.jpg', desc: 'Comfortable room for couples or small families.', tag: 'Double' },
   { name: 'Triple Room', image: '/triple-room.jpg', desc: 'Spacious setup suitable for families and small groups.', tag: 'Triple' },
   { name: 'Duplex Room', image: '/duplex-room.jpg', desc: 'Extra space for guests looking for a larger stay.', tag: 'Duplex' },
 ]
@@ -68,7 +68,7 @@ function App() {
             </div>
           </div>
           <div className="hero-card">
-            <img src="/triple1-room.jpg" alt="Double room at Swastik Residency" width="600" height="450" />
+            <img src="/double-room.jpg" alt="Double room at Swastik Residency" width="600" height="450" />
             <div className="hero-card-caption"><span>Comfortable rooms</span><b>View rooms ↓</b></div>
           </div>
         </section>
@@ -110,7 +110,7 @@ function App() {
           <div className="section-head"><div><p className="eyebrow">Gallery</p><h2>See your stay</h2></div><p>More property and building photos can be added here.</p></div>
           <div className="gallery-grid">
             <img src="/triple-room.jpg" alt="Triple room" width="400" height="794" loading="lazy" />
-            <img src="/triple1-room.jpg" alt="Double room" width="400" height="390" loading="lazy" />
+            <img src="/double-room.jpg" alt="Double room" width="400" height="390" loading="lazy" />
             <img src="/duplex-room.jpg" alt="Duplex room" width="400" height="390" loading="lazy" />
           </div>
         </section>
